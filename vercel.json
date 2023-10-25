@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/api/upload-data",
-      "dest": "app.py"
+      "dest": "/app.py"
     }
   ],
   "env": {
