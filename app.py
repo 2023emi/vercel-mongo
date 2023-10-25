@@ -108,6 +108,14 @@ def download_and_upload():
 
     return jsonify({"message": "Data downloaded and uploaded to MongoDB"})
 
+
+@app.route('/')
+# ‘/’ URL is bound with hello_world() function.
+def hello_world():
+    return 'Hello World'
+
+    
 if __name__ == '__main__':
     app.run()
 #curl -X POST http://127.0.0.1:5000/api/upload-data
+
