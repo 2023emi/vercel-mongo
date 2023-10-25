@@ -8,12 +8,11 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/app.py"
+      "src": "/api/upload-data",
+      "dest": "/app.py"  // The destination of your Python script
     }
   ],
   "env": {
     "MY_VAR": "my_value"
   }
 }
-
